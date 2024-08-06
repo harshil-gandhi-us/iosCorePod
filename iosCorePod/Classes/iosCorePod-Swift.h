@@ -6,7 +6,6 @@
 
 @property (nonatomic, strong, readonly) NSString *appId;
 
-- (void)getAppId;
 - (void)initialize;
 - (void)networkStatusListenerHandler:(void (^)(BOOL connected))handler;
 

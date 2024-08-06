@@ -11,6 +11,7 @@
 #endif
 
 #import "iosCorePod-Bridging-Header.h"
+#import "iosCorePod-Swift.h"
 
 FOUNDATION_EXPORT double iosCorePodVersionNumber;
 FOUNDATION_EXPORT const unsigned char iosCorePodVersionString[];

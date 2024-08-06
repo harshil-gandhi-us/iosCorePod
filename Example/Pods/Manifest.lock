@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  iosCorePod: 1bfec5f65d4ed5cbd1a747512cf21b5e1f21ef82
+  iosCorePod: a97b8cef46675388718d2725aaed9cb00aad3494
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
   ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979

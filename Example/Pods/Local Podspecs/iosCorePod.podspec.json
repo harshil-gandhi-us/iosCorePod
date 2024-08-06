@@ -19,12 +19,15 @@
   "platforms": {
     "ios": "12.0"
   },
-  "public_header_files": "iosCorePod/iosCorePod-Bridging-Header.h",
+  "public_header_files": "iosCorePod/Classes/**/*.h",
   "source_files": "iosCorePod/Classes/**/*",
   "dependencies": {
     "ReachabilitySwift": [
 
     ]
+  },
+  "xcconfig": {
+    "SWIFT_OBJC_BRIDGING_HEADER": "iosCorePod/Classes/iosCorePod-Bridging-Header.h"
   },
   "swift_version": "5.0"
 }
