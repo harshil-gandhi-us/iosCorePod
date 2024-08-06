@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "iosCorePod is used for network related and appId"
 
-  s.homepage         = 'https://github.com/harshil-gandhi-16/iosCorePod'
+  s.homepage         = 'https://github.com/harshil-gandhi-us/iosCorePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'harshil-gandhi-16' => 'harshil.gandhi@logicwind.com' }
-  s.source           = { :git => 'https://github.com/harshil-gandhi-16/iosCorePod.git', :tag => s.version.to_s }
+  s.author           = { 'harshil-gandhi-us' => 'harshil.gandhi@logicwind.com' }
+  s.source           = { :git => 'https://github.com/harshil-gandhi-us/iosCorePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version  = '5.0'
   s.ios.deployment_target = '12.0'
