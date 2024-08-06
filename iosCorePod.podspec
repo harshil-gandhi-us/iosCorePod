@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version  = '5.0'
   s.ios.deployment_target = '12.0'
+  s.public_header_files = 'iosCorePod/iosCorePod-Bridging-Header.h'
 
   s.source_files = 'iosCorePod/Classes/**/*'
   s.dependency 'ReachabilitySwift'

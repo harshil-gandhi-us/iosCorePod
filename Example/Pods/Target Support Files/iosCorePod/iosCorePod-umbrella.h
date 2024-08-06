@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "iosCorePod-Bridging-Header.h"
 
 FOUNDATION_EXPORT double iosCorePodVersionNumber;
 FOUNDATION_EXPORT const unsigned char iosCorePodVersionString[];
