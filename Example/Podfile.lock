@@ -1,0 +1,31 @@
+PODS:
+  - iosCorePod (0.1.0):
+    - ReachabilitySwift
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+  - ReachabilitySwift (5.2.3)
+
+DEPENDENCIES:
+  - iosCorePod (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  iosCorePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iosCorePod: 9ec9b8cb10288b7caa743f5b0fbaaf8557680de6
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+
+PODFILE CHECKSUM: 03703f05c0525205426be6bcb7b9a27aef3a5c00
+
+COCOAPODS: 1.15.2

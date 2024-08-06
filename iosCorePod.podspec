@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iosCorePod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iosCorePod.'
+  s.summary          = 'iosCorePod is for AppsOnAir'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,19 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "iosCorePod is used for network related and appId"
 
-  s.homepage         = 'https://github.com/164989979/iosCorePod'
+  s.homepage         = 'https://github.com/harshil-gandhi-16/iosCorePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '164989979' => 'harshil.gandhi@logicwind.com' }
-  s.source           = { :git => 'https://github.com/164989979/iosCorePod.git', :tag => s.version.to_s }
+  s.author           = { 'harshil-gandhi-16' => 'harshil.gandhi@logicwind.com' }
+  s.source           = { :git => 'https://github.com/harshil-gandhi-16/iosCorePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+  s.swift_version  = '5.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'iosCorePod/Classes/**/*'
+  s.dependency 'ReachabilitySwift'
   
   # s.resource_bundles = {
   #   'iosCorePod' => ['iosCorePod/Assets/*.png']
