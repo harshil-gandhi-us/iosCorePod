@@ -16,8 +16,8 @@ import AVFoundation
             networkService.startMonitoring()
     }
     
-    public func getAppId()-> String{
-      // To fetch appId once id set then again not read from Info plist . 
+    @objc public func getAppId()-> String{
+      // To fetch appId once id set then again not read from Info plist .
       /*   if self.appId != "" {
             return self.appId
         }else{
@@ -37,7 +37,7 @@ import AVFoundation
         }
     }
    
-    public func isConnectedNetwork()-> Bool{
+    @objc public func isConnectedNetwork()-> Bool{
         return (isNetworkConnected ?? false)
     }
     
@@ -52,7 +52,7 @@ import AVFoundation
     private var networkStatusChangeHandler: NetworkStatusChangeHandler?
       
       // Method to set the network status change handler
-    public func networkStatusListenerHandler(_ handler: @escaping NetworkStatusChangeHandler) {
+    @objc public func networkStatusListenerHandler(_ handler: @escaping NetworkStatusChangeHandler) {
         networkStatusChangeHandler = handler
       }
     //Throw Error
