@@ -3,7 +3,7 @@
 import UIKit
 import AVFoundation
 //
-public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
+@objc public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
     
     private var appId: String = ""
     public var isNetworkConnected: Bool? = nil
@@ -11,7 +11,7 @@ public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
     private var errorMessage:String = "AppsOnAir Appid is Not initialized for more details: \n https://documentation.appsonair.com"
     var networkService: NetworkService = ReachabilityNetworkService()
     
-    public func initialize(){
+    @objc public func initialize(){
             networkService.delegate = self
             networkService.startMonitoring()
     }

@@ -295,7 +295,7 @@
 		9045903075BF929E4D139C90FE384CBC /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		968488F23C678D36D30539FA0D5D9784 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		971A9C76F3BA9679A69C7B4BFA7581CD /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
-		97889294E71F036D6E9F95FCAC82902D /* iosCorePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosCorePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97889294E71F036D6E9F95FCAC82902D /* iosCorePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iosCorePod; path = iosCorePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A8994F4A80386C88CEAE7A9D84C90A /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		980A5CDC43E7EA5FACE97694F4FD2FEE /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
 		98C7ECF4D961F5020D3A9CF50999EF55 /* Pods-iosCorePod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosCorePod_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -331,7 +331,7 @@
 		B86CFA42BE14E1CD7B03738459CE1888 /* iosCorePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iosCorePod-Info.plist"; sourceTree = "<group>"; };
 		B8F6F0349EB7C63F2EE6A737506883F3 /* Pods-iosCorePod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosCorePod_Example.modulemap"; sourceTree = "<group>"; };
 		B9A2155DFA4087A99CD23C8E6B058DAC /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
-		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE263041362D074978BB3B577DF0A05 /* Nimble */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB65FC13D18D5541195138C09A684F72 /* iosCorePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosCorePod-prefix.pch"; sourceTree = "<group>"; };
 		BD5330F2B6F441685B4483CC48998514 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		BF314A8BCDEE2F78783C4E7A87D76846 /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
@@ -658,8 +658,8 @@
 		A22A8259B8FAB52EA4D6D583826DC250 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97889294E71F036D6E9F95FCAC82902D /* iosCorePod.framework */,
-				BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */,
+				97889294E71F036D6E9F95FCAC82902D /* iosCorePod */,
+				BAE263041362D074978BB3B577DF0A05 /* Nimble */,
 				2E7619E9EF26641F5E3BC79582184539 /* Pods-iosCorePod_Example */,
 				ACBFBF1786E633B1950879F750C5FFD1 /* Pods-iosCorePod_Tests */,
 				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
@@ -867,7 +867,7 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */;
+			productReference = BAE263041362D074978BB3B577DF0A05 /* Nimble */;
 			productType = "com.apple.product-type.framework";
 		};
 		93C799BDD82F5B0B2480B0A3F5F14460 /* iosCorePod */ = {
@@ -886,7 +886,7 @@
 			);
 			name = iosCorePod;
 			productName = iosCorePod;
-			productReference = 97889294E71F036D6E9F95FCAC82902D /* iosCorePod.framework */;
+			productReference = 97889294E71F036D6E9F95FCAC82902D /* iosCorePod */;
 			productType = "com.apple.product-type.framework";
 		};
 		C82891EAB7293DBEE916B21F57E8474D /* Quick */ = {
@@ -956,11 +956,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					93C799BDD82F5B0B2480B0A3F5F14460 = {
-						LastSwiftMigration = 1530;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1307,38 +1302,6 @@
 			};
 			name = Release;
 		};
-		1A9A6C1A5A4C8E0AB576D397C69BB75A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA95A14026CE763EABD56A471F9BE3D6 /* iosCorePod.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iosCorePod/iosCorePod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iosCorePod/iosCorePod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iosCorePod/iosCorePod.modulemap";
-				PRODUCT_MODULE_NAME = iosCorePod;
-				PRODUCT_NAME = iosCorePod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1486,7 +1449,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
 				PRODUCT_MODULE_NAME = Nimble;
@@ -1562,6 +1525,38 @@
 			};
 			name = Release;
 		};
+		7E2A8AE6974E6D293A8851FFCFBECB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA95A14026CE763EABD56A471F9BE3D6 /* iosCorePod.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iosCorePod/iosCorePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosCorePod/iosCorePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosCorePod/iosCorePod.modulemap";
+				PRODUCT_MODULE_NAME = iosCorePod;
+				PRODUCT_NAME = iosCorePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EAF119E4B9D99FA76E719BD90EB7578 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E85FCDDDC9C09FDCD5A19BB6504BAA4 /* Quick.debug.xcconfig */;
@@ -1592,6 +1587,39 @@
 			};
 			name = Debug;
 		};
+		A1491D28362DEDBC0AA9AE39236F5201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB46231341E954F4D1662C77D4AA245A /* iosCorePod.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iosCorePod/iosCorePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosCorePod/iosCorePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosCorePod/iosCorePod.modulemap";
+				PRODUCT_MODULE_NAME = iosCorePod;
+				PRODUCT_NAME = iosCorePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A5BA22D4099F2DB7899F68DF2A6484DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28C80DC31740C4868690F9F6B9425058 /* Nimble.release.xcconfig */;
@@ -1607,7 +1635,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
 				PRODUCT_MODULE_NAME = Nimble;
@@ -1723,39 +1751,6 @@
 			};
 			name = Debug;
 		};
-		C10A36859C5CF0FAFB3B94E55D7750C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB46231341E954F4D1662C77D4AA245A /* iosCorePod.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iosCorePod/iosCorePod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iosCorePod/iosCorePod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iosCorePod/iosCorePod.modulemap";
-				PRODUCT_MODULE_NAME = iosCorePod;
-				PRODUCT_NAME = iosCorePod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FF18DEDDD803B1C8BE940E1EA3C2CA60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 152812BB2D8D89875ADA2273B932258D /* ReachabilitySwift.release.xcconfig */;
@@ -1831,8 +1826,8 @@
 		9E101E6FB523F285DC48C79004033F9D /* Build configuration list for PBXNativeTarget "iosCorePod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A9A6C1A5A4C8E0AB576D397C69BB75A /* Debug */,
-				C10A36859C5CF0FAFB3B94E55D7750C3 /* Release */,
+				7E2A8AE6974E6D293A8851FFCFBECB88 /* Debug */,
+				A1491D28362DEDBC0AA9AE39236F5201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

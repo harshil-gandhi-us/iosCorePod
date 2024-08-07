@@ -68,27 +68,27 @@ NIMBLE_EXPORT NIMBLE_OVERLOADABLE NMBPredicate *NMB_beLessThanOrEqualTo(NSNumber
     return [NMBPredicate beLessThanOrEqualToMatcher:expectedValue];
 }
 
-NIMBLE_EXPORT NMBPredicate *NMB_beTruthy(void) {
+NIMBLE_EXPORT NMBPredicate *NMB_beTruthy() {
     return [NMBPredicate beTruthyMatcher];
 }
 
-NIMBLE_EXPORT NMBPredicate *NMB_beFalsy(void) {
+NIMBLE_EXPORT NMBPredicate *NMB_beFalsy() {
     return [NMBPredicate beFalsyMatcher];
 }
 
-NIMBLE_EXPORT NMBPredicate *NMB_beTrue(void) {
+NIMBLE_EXPORT NMBPredicate *NMB_beTrue() {
     return [NMBPredicate beTrueMatcher];
 }
 
-NIMBLE_EXPORT NMBPredicate *NMB_beFalse(void) {
+NIMBLE_EXPORT NMBPredicate *NMB_beFalse() {
     return [NMBPredicate beFalseMatcher];
 }
 
-NIMBLE_EXPORT NMBPredicate *NMB_beNil(void) {
+NIMBLE_EXPORT NMBPredicate *NMB_beNil() {
     return [NMBPredicate beNilMatcher];
 }
 
-NIMBLE_EXPORT NMBPredicate *NMB_beEmpty(void) {
+NIMBLE_EXPORT NMBPredicate *NMB_beEmpty() {
     return [NMBPredicate beEmptyMatcher];
 }
 
@@ -142,7 +142,7 @@ NIMBLE_EXPORT NMBPredicate *NMB_satisfyAllOfWithMatchers(id matchers) {
     return [NMBPredicate satisfyAllOfMatcher:matchers];
 }
 
-NIMBLE_EXPORT NMBObjCRaiseExceptionPredicate *NMB_raiseException(void) {
+NIMBLE_EXPORT NMBObjCRaiseExceptionPredicate *NMB_raiseException() {
     return [NMBPredicate raiseExceptionMatcher];
 }
 
