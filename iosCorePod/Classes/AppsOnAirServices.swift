@@ -3,7 +3,7 @@
 import UIKit
 import AVFoundation
 //
-@objc public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
+public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
     
     private var appId: String = ""
     public var isNetworkConnected: Bool? = nil
