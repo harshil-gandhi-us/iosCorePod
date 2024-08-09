@@ -2,7 +2,7 @@
 
 import UIKit
 import AVFoundation
-//
+
 public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
     
     private var appId: String = ""
@@ -17,12 +17,6 @@ public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
     }
     
     @objc public func getAppId()-> String{
-      // To fetch appId once id set then again not read from Info plist .
-      /*   if self.appId != "" {
-            return self.appId
-        }else{
-            self.appId = Bundle.main.infoDictionary?["appId"] as? String ?? "";
-        } */
         self.appId = Bundle.main.infoDictionary?["appId"] as? String ?? "";
         if self.appId == "" {
             #if DEBUG
@@ -51,10 +45,11 @@ public class AppsOnAirCoreServices : NSObject, NetworkServiceDelegate {
     public typealias NetworkStatusChangeHandler = (Bool) -> Void
     private var networkStatusChangeHandler: NetworkStatusChangeHandler?
       
-      // Method to set the network status change handler
+    // Method to set the network status change handler
     @objc public func networkStatusListenerHandler(_ handler: @escaping NetworkStatusChangeHandler) {
         networkStatusChangeHandler = handler
       }
+    
     //Throw Error
     enum MyError: Error {
         case runtimeError(String)
