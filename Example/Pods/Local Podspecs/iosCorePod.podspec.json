@@ -26,8 +26,5 @@
 
     ]
   },
-  "xcconfig": {
-    "SWIFT_OBJC_BRIDGING_HEADER": "iosCorePod/Classes/iosCorePod-Bridging-Header.h"
-  },
   "swift_version": "5.0"
 }
